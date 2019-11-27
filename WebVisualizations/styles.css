@@ -1,0 +1,220 @@
+.main {
+    background-color:lightgrey;
+    margin:0px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#siteName {
+    background-color:LightSeaGreen;
+    color:white;
+    size: 15px;
+    font-size: 25px;
+    font-weight:bold;
+    margin-left:30px;
+    padding:0px;
+    border: 5px solid LightSeaGreen;
+}
+
+.box1 {
+    min-height: 400px;
+    padding: 15px;
+    margin: 5px;
+    color: lightseagreen;
+  }
+
+.box2 {
+    color: lightseagreen;
+    min-height: 400px;
+    padding: 15px;
+    margin: 5px;
+}
+
+.skyblue {
+    background: white;
+  }
+
+#blue {
+    color:lightseagreen;
+}
+
+.table-main {
+    min-height: 400px;
+    padding: 15px;
+    margin: 5px;
+    background:white;
+    text-align:left;
+}
+
+.top-buffer { 
+    margin-top:90px; 
+    margin-right: 10px;
+    margin-left:10px;
+}
+
+.top-buffer2 { 
+    margin-top:90px; 
+    margin-right: 10px;
+    margin-left:10px;
+}
+
+.top-data { 
+    margin-top:90px; 
+    margin-right: 10px;
+    margin-left:20px;
+    padding:10px;
+}
+
+.summary {
+    color:darkslategrey;
+    font-size:16px;
+    padding-top:15px;
+    padding-bottom:20px;
+}
+
+.landing-img {
+    width:320px;
+	height:300px;
+	float:left;
+    margin-right:10px;
+}
+
+.vis-main {
+    padding:5px;
+    margin:5px;
+}
+
+.vis-grid {
+    min-height: 160px;
+    padding: 1px;
+    color: lightseagreen;
+}
+
+.vis-img, .vis-img-noHOV {
+    height:100%;
+    width:100%;
+}
+
+.vis-img:hover {
+    border: 2px solid lightseagreen;
+}
+
+.comparison-box {
+    padding:20px;
+    color: lightseagreen;
+}
+
+.click-p {
+    color:black;
+}
+
+.comparison-title {
+    text-align:center;
+    padding-bottom:0px;
+    margin-bottom:0px;
+}
+
+.vis-img2 {
+    height:500px;
+    width:500px;
+}
+
+.top-comparison {
+padding:20px;
+margin-top:90px; 
+margin-right:40px;
+margin-left:20px;
+color: lightseagreen;
+}
+
+.comparison-box2 {
+    padding:20px;
+    color: lightseagreen;
+    margin:10px;
+}
+
+.dropdown-toggle:hover{
+    background-color: lightgrey !important;
+}
+
+.selected-img {
+    border: 2px solid lightseagreen;
+}
+
+.comp-div {
+    padding:10px;
+}
+
+.small-hr {
+    visibility:hidden;
+}
+
+.table-responsive {
+    font-size:12px;
+}
+
+@media only screen and (max-width: 760px) {
+    .media-row {
+        display:none;
+    }
+
+    .comparison-title {
+        border-top: 1px solid lightgrey;
+    }
+
+    .main {
+        background-color:white;
+    }
+
+    .drop-class {
+        color:#696969;
+    }
+
+    .navbar {
+        background-color:lightseagreen !important;
+        position:fixed;
+    }
+    
+    .navbar-collapse, .navbar-nav {
+        background-color:white;
+    }
+
+    .dropdown-toggle:hover{
+        background-color: lightgrey !important;
+        }
+
+    .main {
+        background-color:white;
+        }
+   
+    .custom-toggler.navbar-toggler {
+        border-color: rgb(255,255,255);
+        } 
+
+    .top-buffer { 
+        margin-top:140px; 
+        }
+
+    .top-buffer2 { 
+        margin-top:150px; 
+        }
+
+    .small-hr {
+        visibility:visible;
+        }
+
+    .top-comparison {
+       margin-top:110px;
+       margin-right:0px;
+        margin-left:0px;
+        }
+
+    .table-responsive {
+        width:100%;
+        font-size:8px;
+        }
+
+    .top-data { 
+        margin-top:130px; 
+        }
+}
