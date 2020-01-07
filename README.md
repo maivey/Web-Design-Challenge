@@ -26,10 +26,10 @@ The website consists of 7 pages total, including:
     * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
 * A "Data" page that:
   * Displays a responsive table containing the data used in the visualizations.
-    * The table must be a bootstrap table component.
-    * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. 
+    * The table is a bootstrap table component.
+    * The data comes from exporting the `.csv` file as HTML, or converting it to HTML. 
 
-The website must, at the top of every page, have a navigation menu that:
+The website has, at the top of every page, a navigation menu that:
 
 * Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
 * Contains a dropdown on the right of the navbar named "Plots" which provides links to each individual visualization page.
