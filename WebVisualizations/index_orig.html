@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Equator Weather Analysis - Home</title>
+    <title>Latitude</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -14,15 +14,13 @@
   <body>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <a id = "siteName" class="navbar-brand" href="index.html">Equator Weather Analysis</a>
+                    <a id = "siteName" class="navbar-brand" href="index.html">Latitude</a>
                             <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                             </button>
 
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <!-- <ul class="navbar-nav ml-auto"> -->
-                            <ul class="navbar-nav ml-auto">
-
+                        <ul class="navbar-nav ml-auto">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Plots
@@ -48,7 +46,7 @@
         <div class="main">
         <div class="container-fluid">
             <div class="row top-buffer2">
-                    <div class="col-sm-7 col-lg-7 col-md-7">                       
+                    <div class="col-lg-7 col-md-7">                       
                          <div class="box1 skyblue">
                             <h2 >Summary: Latitude vs. X</h2><hr>
                             <p class="summary"><img src="assets/LATvsMAXTEMP.png" class="landing-img" alt="Max Temp">The purpose of the project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities</p>
@@ -56,37 +54,37 @@
 
                         </div>
                     </div>
-                    <div class="col-sm-5 col-lg-5 col-md-5">                        
+                    <div class="col-lg-5 col-md-5">                        
                         <div class="box2 skyblue">
                             <h3>Visualizations</h3><hr>
-                                <!-- <div class="d-none d-md-block"> -->
+                                <div class="d-none d-md-block">
                             <div class="row">
-                                <div class="col-sm-12 col-lg-12 col-md-12">
+                                <div class="col-lg-6 col-md-6">
                                     <a href = "visualizations/vis_maxTemp.html">
                                     <img src="assets/LATvsMAXTEMP.png" class="vis-img" alt="Max Temp">
                                     </a>
                                 </div>
-                                <div class="col-sm-12 col-lg-12 col-md-12">
+                                <div class="col-lg-6 col-md-6">
                                     <a href = "visualizations/vis_humidity.html">
                                     <img src="assets/LATvsHUMIDITY.png" class="vis-img" alt="Humidity">
                                     </a>
                                 </div>
                             </div>
                             <div class="row">
-                                    <div class="col-sm-12 col-lg-12 col-md-12">
+                                    <div class="col-lg-6 col-md-6">
                                         <a href = "visualizations/vis_cloudiness.html">
                                         <img src="assets/LATvsCLOUDINESS.png" class="vis-img" alt="Max Temp">
                                         </a>
                                     </div>
-                                    <div class="col-sm-12 col-lg-12 col-md-12">
+                                    <div class="col-lg-6 col-md-6">
                                         <a href = "visualizations/vis_windSpeed.html">
                                         <img src="assets/LATvsWINDSPEED.png" class="vis-img" alt="Humidity">
                                         </a>
                                     </div>
                                 </div>
-                            <!-- </div> -->
+                            </div>
                         
-                    <!-- <div class="d-md-none">
+                    <div class="d-md-none">
                         <div class="row">
                             <div class="col-sm-3">
                                 <a href = "visualizations/vis_maxTemp.html">
@@ -109,7 +107,7 @@
                                 </a>
                             </div>
                         </div>
-                    </div>         -->
+                    </div>        
                     </div>
                 </div>
             </div>

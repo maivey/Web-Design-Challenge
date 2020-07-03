@@ -73,8 +73,10 @@
 }
 
 .landing-img {
-    width:320px;
-	height:300px;
+    width:100%;
+    height:100%;
+    /* width:320px;
+	height:300px; */
 	float:left;
     margin-right:10px;
 }
@@ -153,6 +155,13 @@ color: lightseagreen;
     font-size:12px;
 }
 
+@media only screen and (max-width: 991px) {
+    .nav-item {
+        margin-left:5%;
+        width: 80%;
+    }
+}
+
 @media only screen and (max-width: 760px) {
     .media-row {
         display:none;
@@ -217,4 +226,8 @@ color: lightseagreen;
     .top-data { 
         margin-top:130px; 
         }
+    .nav-item {
+        margin-left:5%;
+        width: 80%;
+    }
 }
